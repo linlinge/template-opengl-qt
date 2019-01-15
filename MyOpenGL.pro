@@ -11,7 +11,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = MyOpenGL
 TEMPLATE = app
 
-
+LIBS += -lOpengl32
 SOURCES += main.cpp\
         window.cpp \
     myglwidget.cpp
